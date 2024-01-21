@@ -17,9 +17,10 @@
     {"name":"Timelines","order":8,"path":"folders/Timelines.yy",},
   ],
   "ResourceOrderSettings": [
+    {"name":"Sprite4","order":16,"path":"sprites/Sprite4/Sprite4.yy",},
     {"name":"sprotagonistaquieto","order":3,"path":"sprites/sprotagonistaquieto/sprotagonistaquieto.yy",},
+    {"name":"Sprite5","order":4,"path":"sprites/Sprite5/Sprite5.yy",},
     {"name":"Piso","order":2,"path":"sprites/Piso/Piso.yy",},
-    {"name":"Fondo1","order":1,"path":"sprites/Fondo1/Fondo1.yy",},
     {"name":"obj_obstaculo","order":1,"path":"objects/obj_obstaculo/obj_obstaculo.yy",},
   ],
 }
