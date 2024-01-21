@@ -3,6 +3,7 @@ if (keyboard_check(vk_right)) {
     if (!place_meeting(x + move_speed, y - 20, obj_obstaculo)) {
         x += move_speed;
         image_xscale = 0.6; // Escala normal
+		sprite_index = sprotagonistaDerecha;
     }
 } else if (keyboard_check(vk_left)) {
     // Mover hacia la izquierda si no hay colisión
@@ -12,7 +13,20 @@ if (keyboard_check(vk_right)) {
     } else {
         image_xscale = 0.6; // Restablece la escala a normal si hay colisión hacia la izquierda
     }
+	sprite_index= sprotagonistaDerecha;
 } 
+if (!keyboard_check(vk_left) && !keyboard_check(vk_right) && !keyboard_check(vk_up) && !keyboard_check(vk_down)) {
+   sprite_index=sprotagonistaQuieto;
+}
+if (keyboard_check(vk_down)) {
+  sprite_index= sprotagonistaAgachado;
+}
+if (keyboard_check(vk_space)) {
+  sprite_index= sprotagonistaSaltando;
+}
+
+
+
 
 if (place_meeting(x, y, obj_obstaculo)) {
     vspeed = 0;

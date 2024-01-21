@@ -29,8 +29,8 @@
   "properties": [],
   "solid": true,
   "spriteId": {
-    "name": "sprotagonista",
-    "path": "sprites/sprotagonista/sprotagonista.yy",
+    "name": "sprotagonistaQuieto",
+    "path": "sprites/sprotagonistaQuieto/sprotagonistaQuieto.yy",
   },
   "spriteMaskId": null,
   "visible": true,
