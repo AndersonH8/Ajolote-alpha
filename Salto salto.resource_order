@@ -20,6 +20,8 @@
     {"name":"Sprite4","order":16,"path":"sprites/Sprite4/Sprite4.yy",},
     {"name":"sprotagonistaquieto","order":3,"path":"sprites/sprotagonistaquieto/sprotagonistaquieto.yy",},
     {"name":"Sprite5","order":4,"path":"sprites/Sprite5/Sprite5.yy",},
+    {"name":"Sprite6","order":5,"path":"sprites/Sprite6/Sprite6.yy",},
+    {"name":"suelo_1","order":2,"path":"objects/suelo_1/suelo_1.yy",},
     {"name":"Piso","order":2,"path":"sprites/Piso/Piso.yy",},
     {"name":"obj_obstaculo","order":1,"path":"objects/obj_obstaculo/obj_obstaculo.yy",},
   ],

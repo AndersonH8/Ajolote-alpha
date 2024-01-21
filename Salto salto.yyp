@@ -37,6 +37,8 @@
     {"id":{"name":"Sprite4","path":"sprites/Sprite4/Sprite4.yy",},},
     {"id":{"name":"sprotagonistaquieto","path":"sprites/sprotagonistaquieto/sprotagonistaquieto.yy",},},
     {"id":{"name":"Sprite5","path":"sprites/Sprite5/Sprite5.yy",},},
+    {"id":{"name":"Sprite6","path":"sprites/Sprite6/Sprite6.yy",},},
+    {"id":{"name":"suelo_1","path":"objects/suelo_1/suelo_1.yy",},},
     {"id":{"name":"Piso","path":"sprites/Piso/Piso.yy",},},
     {"id":{"name":"oprotagonista","path":"objects/oprotagonista/oprotagonista.yy",},},
     {"id":{"name":"obj_obstaculo","path":"objects/obj_obstaculo/obj_obstaculo.yy",},},

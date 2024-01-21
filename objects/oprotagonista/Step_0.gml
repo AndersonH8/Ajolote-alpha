@@ -12,10 +12,10 @@ if place_meeting(x, y , obj_obstaculo)
 {vspeed = 0
 	gravity = 0} else {gravity = 1}
 
-	if keyboard_check(vk_space) && gravity = 0
+ if keyboard_check(vk_space) && gravity = 0
  {
  vspeed = - 20
- gravity = 1
+ gravity = 1 
   }
 
-  
+    
