@@ -2,13 +2,15 @@ if (keyboard_check(vk_right)) {
     // Mover hacia la derecha si no hay colisión
     if (!place_meeting(x + move_speed, y - 20, obj_obstaculo)) {
         x += move_speed;
-        image_xscale = 1; // Escala normal
+        image_xscale = 0.6; // Escala normal
     }
 } else if (keyboard_check(vk_left)) {
     // Mover hacia la izquierda si no hay colisión
     if (!place_meeting(x - move_speed, y - 20, obj_obstaculo)) {
         x -= move_speed;
-        image_xscale = -1; // Invierte la escala para girar hacia la izquierda
+        image_xscale = -0.6; // Invierte la escala para girar hacia la izquierda
+    } else {
+        image_xscale = 0.6; // Restablece la escala a normal si hay colisión hacia la izquierda
     }
 } 
 
@@ -23,4 +25,3 @@ if (keyboard_check(vk_space) && gravity == 0) {
     vspeed = -20;
     gravity = 1;
 }
-
